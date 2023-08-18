@@ -1,0 +1,293 @@
+Script started on 2021-10-25 10:22:05-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="66" LINES="29"]
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development[00m$ rc
+c]104[!p[?3;4l[4l>[H[2J[3J]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development[00m$ cd
+]0;troyburney@TELESTO: ~[01;32mtroyburney@TELESTO[00m:[01;34m~[00m$ c d[K[K[Kcd e[K/etc/update-motd.d/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ l
+[0m[01;32m00-header[0m*     [01;32m90-updates-available[0m*    [01;32m98-fsck-at-reboot[0m*
+[01;32m10-help-text[0m*  [01;32m91-release-upgrade[0m*      [01;32m98-reboot-required[0m*
+[01;32m50-motd-news[0m*  [01;32m92-unattended-upgrades[0m*
+[01;32m85-fwupd[0m*      [01;32m95-hwe-eol[0m*
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 60
+drwxr-xr-x   2 root root  4096 Sep 26 09:53 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root 12288 Oct 22 10:27 [01;34m..[0m/
+-rwxr-xr-x   1 root root  1220 Dec  5  2019 [01;32m00-header[0m*
+-rwxr-xr-x   1 root root  1157 Dec  5  2019 [01;32m10-help-text[0m*
+-rwxr-xr-x   1 root root  5023 Aug 17  2020 [01;32m50-motd-news[0m*
+-rwxr-xr-x   1 root root    96 Jun 18  2020 [01;32m85-fwupd[0m*
+-rwxr-xr-x   1 root root   218 Apr  2  2020 [01;32m90-updates-available[0m*
+-rwxr-xr-x   1 root root   374 Jul 17  2020 [01;32m91-release-upgrade[0m*
+-rwxr-xr-x   1 root root   165 Apr 13  2020 [01;32m92-unattended-upgrades[0m*
+-rwxr-xr-x   1 root root   129 Apr  2  2020 [01;32m95-hwe-eol[0m*
+-rwxr-xr-x   1 root root   142 Apr  2  2020 [01;32m98-fsck-at-reboot[0m*
+-rwxr-xr-x   1 root root   144 Apr  2  2020 [01;32m98-reboot-required[0m*
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ m[Ksudo mkdiarc [K[K[K[K [Kr Archive
+[sudo] password for troyburney: 
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ cp * Archive/
+cp: cannot create regular file 'Archive/00-header': Permission denied
+cp: cannot create regular file 'Archive/10-help-text': Permission denied
+cp: cannot create regular file 'Archive/50-motd-news': Permission denied
+cp: cannot create regular file 'Archive/85-fwupd': Permission denied
+cp: cannot create regular file 'Archive/90-updates-available': Permission denied
+cp: cannot create regular file 'Archive/91-release-upgrade': Permission denied
+cp: cannot create regular file 'Archive/92-unattended-upgrades': Permission denied
+cp: cannot create regular file 'Archive/95-hwe-eol': Permission denied
+cp: cannot create regular file 'Archive/98-fsck-at-reboot': Permission denied
+cp: cannot create regular file 'Archive/98-reboot-required': Permission denied
+cp: -r not specified; omitting directory 'Archive'
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ sudo !!
+sudo cp * Archive/
+cp: -r not specified; omitting directory 'Archive'
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 64
+drwxr-xr-x   3 root root  4096 Oct 25 10:22 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root 12288 Oct 22 10:27 [01;34m..[0m/
+-rwxr-xr-x   1 root root  1220 Dec  5  2019 [01;32m00-header[0m*
+-rwxr-xr-x   1 root root  1157 Dec  5  2019 [01;32m10-help-text[0m*
+-rwxr-xr-x   1 root root  5023 Aug 17  2020 [01;32m50-motd-news[0m*
+-rwxr-xr-x   1 root root    96 Jun 18  2020 [01;32m85-fwupd[0m*
+-rwxr-xr-x   1 root root   218 Apr  2  2020 [01;32m90-updates-available[0m*
+-rwxr-xr-x   1 root root   374 Jul 17  2020 [01;32m91-release-upgrade[0m*
+-rwxr-xr-x   1 root root   165 Apr 13  2020 [01;32m92-unattended-upgrades[0m*
+-rwxr-xr-x   1 root root   129 Apr  2  2020 [01;32m95-hwe-eol[0m*
+-rwxr-xr-x   1 root root   142 Apr  2  2020 [01;32m98-fsck-at-reboot[0m*
+-rwxr-xr-x   1 root root   144 Apr  2  2020 [01;32m98-reboot-required[0m*
+drwxr-xr-x   2 root root  4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ cd Archive/
+]0;troyburney@TELESTO: /etc/update-motd.d/Archive[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d/Archive[00m$ ll
+total 52
+drwxr-xr-x 2 root root 4096 Oct 25 10:22 [0m[01;34m.[0m/
+drwxr-xr-x 3 root root 4096 Oct 25 10:22 [01;34m..[0m/
+-rwxr-xr-x 1 root root 1220 Oct 25 10:22 [01;32m00-header[0m*
+-rwxr-xr-x 1 root root 1157 Oct 25 10:22 [01;32m10-help-text[0m*
+-rwxr-xr-x 1 root root 5023 Oct 25 10:22 [01;32m50-motd-news[0m*
+-rwxr-xr-x 1 root root   96 Oct 25 10:22 [01;32m85-fwupd[0m*
+-rwxr-xr-x 1 root root  218 Oct 25 10:22 [01;32m90-updates-available[0m*
+-rwxr-xr-x 1 root root  374 Oct 25 10:22 [01;32m91-release-upgrade[0m*
+-rwxr-xr-x 1 root root  165 Oct 25 10:22 [01;32m92-unattended-upgrades[0m*
+-rwxr-xr-x 1 root root  129 Oct 25 10:22 [01;32m95-hwe-eol[0m*
+-rwxr-xr-x 1 root root  142 Oct 25 10:22 [01;32m98-fsck-at-reboot[0m*
+-rwxr-xr-x 1 root root  144 Oct 25 10:22 [01;32m98-reboot-required[0m*
+]0;troyburney@TELESTO: /etc/update-motd.d/Archive[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d/Archive[00m$ cd ..
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 64
+drwxr-xr-x   3 root root  4096 Oct 25 10:22 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root 12288 Oct 22 10:27 [01;34m..[0m/
+-rwxr-xr-x   1 root root  1220 Dec  5  2019 [01;32m00-header[0m*
+-rwxr-xr-x   1 root root  1157 Dec  5  2019 [01;32m10-help-text[0m*
+-rwxr-xr-x   1 root root  5023 Aug 17  2020 [01;32m50-motd-news[0m*
+-rwxr-xr-x   1 root root    96 Jun 18  2020 [01;32m85-fwupd[0m*
+-rwxr-xr-x   1 root root   218 Apr  2  2020 [01;32m90-updates-available[0m*
+-rwxr-xr-x   1 root root   374 Jul 17  2020 [01;32m91-release-upgrade[0m*
+-rwxr-xr-x   1 root root   165 Apr 13  2020 [01;32m92-unattended-upgrades[0m*
+-rwxr-xr-x   1 root root   129 Apr  2  2020 [01;32m95-hwe-eol[0m*
+-rwxr-xr-x   1 root root   142 Apr  2  2020 [01;32m98-fsck-at-reboot[0m*
+-rwxr-xr-x   1 root root   144 Apr  2  2020 [01;32m98-reboot-required[0m*
+drwxr-xr-x   2 root root  4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ sudo chmod -x *
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 64
+drwxr-xr-x   3 root root  4096 Oct 25 10:22 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root 12288 Oct 22 10:27 [01;34m..[0m/
+-rw-r--r--   1 root root  1220 Dec  5  2019 00-header
+-rw-r--r--   1 root root  1157 Dec  5  2019 10-help-text
+-rw-r--r--   1 root root  5023 Aug 17  2020 50-motd-news
+-rw-r--r--   1 root root    96 Jun 18  2020 85-fwupd
+-rw-r--r--   1 root root   218 Apr  2  2020 90-updates-available
+-rw-r--r--   1 root root   374 Jul 17  2020 91-release-upgrade
+-rw-r--r--   1 root root   165 Apr 13  2020 92-unattended-upgrades
+-rw-r--r--   1 root root   129 Apr  2  2020 95-hwe-eol
+-rw-r--r--   1 root root   142 Apr  2  2020 98-fsck-at-reboot
+-rw-r--r--   1 root root   144 Apr  2  2020 98-reboot-required
+drw-r--r--   2 root root  4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ cu[K[Ksudo dh[K[Kchmod +x Archive/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 64
+drwxr-xr-x   3 root root  4096 Oct 25 10:22 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root 12288 Oct 22 10:27 [01;34m..[0m/
+-rw-r--r--   1 root root  1220 Dec  5  2019 00-header
+-rw-r--r--   1 root root  1157 Dec  5  2019 10-help-text
+-rw-r--r--   1 root root  5023 Aug 17  2020 50-motd-news
+-rw-r--r--   1 root root    96 Jun 18  2020 85-fwupd
+-rw-r--r--   1 root root   218 Apr  2  2020 90-updates-available
+-rw-r--r--   1 root root   374 Jul 17  2020 91-release-upgrade
+-rw-r--r--   1 root root   165 Apr 13  2020 92-unattended-upgrades
+-rw-r--r--   1 root root   129 Apr  2  2020 95-hwe-eol
+-rw-r--r--   1 root root   142 Apr  2  2020 98-fsck-at-reboot
+-rw-r--r--   1 root root   144 Apr  2  2020 98-reboot-required
+drwxr-xr-x   2 root root  4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ rc
+c]104[!p[?3;4l[4l>ll
+[H[2J[3J]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 64
+drwxr-xr-x   3 root root  4096 Oct 25 10:22 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root 12288 Oct 22 10:27 [01;34m..[0m/
+-rw-r--r--   1 root root  1220 Dec  5  2019 00-header
+-rw-r--r--   1 root root  1157 Dec  5  2019 10-help-text
+-rw-r--r--   1 root root  5023 Aug 17  2020 50-motd-news
+-rw-r--r--   1 root root    96 Jun 18  2020 85-fwupd
+-rw-r--r--   1 root root   218 Apr  2  2020 90-updates-available
+-rw-r--r--   1 root root   374 Jul 17  2020 91-release-upgrade
+-rw-r--r--   1 root root   165 Apr 13  2020 92-unattended-upgrades
+-rw-r--r--   1 root root   129 Apr  2  2020 95-hwe-eol
+-rw-r--r--   1 root root   142 Apr  2  2020 98-fsck-at-reboot
+-rw-r--r--   1 root root   144 Apr  2  2020 98-reboot-required
+drwxr-xr-x   2 root root  4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll[K[Kc[Ktouch -[K01-Cusstom[K[K[K[Ktom_W[K[K-wr[K[KWr[Kord_[K-Of=[K-The _[K-Day.dat
+touch: cannot touch '01-Custom-Word-Of-The-Day.dat': Permission denied
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ sudo !!
+sudo touch 01-Custom-Word-Of-The-Day.dat
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 64
+drwxr-xr-x   3 root root  4096 Oct 25 10:24 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root 12288 Oct 22 10:27 [01;34m..[0m/
+-rw-r--r--   1 root root  1220 Dec  5  2019 00-header
+-rw-r--r--   1 root root     0 Oct 25 10:24 01-Custom-Word-Of-The-Day.dat
+-rw-r--r--   1 root root  1157 Dec  5  2019 10-help-text
+-rw-r--r--   1 root root  5023 Aug 17  2020 50-motd-news
+-rw-r--r--   1 root root    96 Jun 18  2020 85-fwupd
+-rw-r--r--   1 root root   218 Apr  2  2020 90-updates-available
+-rw-r--r--   1 root root   374 Jul 17  2020 91-release-upgrade
+-rw-r--r--   1 root root   165 Apr 13  2020 92-unattended-upgrades
+-rw-r--r--   1 root root   129 Apr  2  2020 95-hwe-eol
+-rw-r--r--   1 root root   142 Apr  2  2020 98-fsck-at-reboot
+-rw-r--r--   1 root root   144 Apr  2  2020 98-reboot-required
+drwxr-xr-x   2 root root  4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ sudo chmod 771
+chmod: missing operand after ‘771’
+Try 'chmod --help' for more information.
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ sudo chmod 771 01-Custom-Word-Of-The-Day.dat 
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 64
+drwxr-xr-x   3 root root  4096 Oct 25 10:24 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root 12288 Oct 22 10:27 [01;34m..[0m/
+-rw-r--r--   1 root root  1220 Dec  5  2019 00-header
+-rwxrwx--x   1 root root     0 Oct 25 10:24 [01;32m01-Custom-Word-Of-The-Day.dat[0m*
+-rw-r--r--   1 root root  1157 Dec  5  2019 10-help-text
+-rw-r--r--   1 root root  5023 Aug 17  2020 50-motd-news
+-rw-r--r--   1 root root    96 Jun 18  2020 85-fwupd
+-rw-r--r--   1 root root   218 Apr  2  2020 90-updates-available
+-rw-r--r--   1 root root   374 Jul 17  2020 91-release-upgrade
+-rw-r--r--   1 root root   165 Apr 13  2020 92-unattended-upgrades
+-rw-r--r--   1 root root   129 Apr  2  2020 95-hwe-eol
+-rw-r--r--   1 root root   142 Apr  2  2020 98-fsck-at-reboot
+-rw-r--r--   1 root root   144 Apr  2  2020 98-reboot-required
+drwxr-xr-x   2 root root  4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ llsudo chmod 771 01-Custom-Word-Of-The-Day.dat [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C41 01-Custom-Wo[1@r[A]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C 01-Custom-Wor[1P[A]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 64
+drwxr-xr-x   3 root root  4096 Oct 25 10:24 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root 12288 Oct 22 10:27 [01;34m..[0m/
+-rw-r--r--   1 root root  1220 Dec  5  2019 00-header
+-rwxrwxr--   1 root root     0 Oct 25 10:24 [01;32m01-Custom-Word-Of-The-Day.dat[0m*
+-rw-r--r--   1 root root  1157 Dec  5  2019 10-help-text
+-rw-r--r--   1 root root  5023 Aug 17  2020 50-motd-news
+-rw-r--r--   1 root root    96 Jun 18  2020 85-fwupd
+-rw-r--r--   1 root root   218 Apr  2  2020 90-updates-available
+-rw-r--r--   1 root root   374 Jul 17  2020 91-release-upgrade
+-rw-r--r--   1 root root   165 Apr 13  2020 92-unattended-upgrades
+-rw-r--r--   1 root root   129 Apr  2  2020 95-hwe-eol
+-rw-r--r--   1 root root   142 Apr  2  2020 98-fsck-at-reboot
+-rw-r--r--   1 root root   144 Apr  2  2020 98-reboot-required
+drwxr-xr-x   2 root root  4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ sudo chown root:troyburne[Key  01-Custom-Word-Of-The-Day.dat 
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 64
+drwxr-xr-x   3 root root        4096 Oct 25 10:24 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root       12288 Oct 22 10:27 [01;34m..[0m/
+-rw-r--r--   1 root root        1220 Dec  5  2019 00-header
+-rwxrwxr--   1 root troyburney     0 Oct 25 10:24 [01;32m01-Custom-Word-Of-The-Day.dat[0m*
+-rw-r--r--   1 root root        1157 Dec  5  2019 10-help-text
+-rw-r--r--   1 root root        5023 Aug 17  2020 50-motd-news
+-rw-r--r--   1 root root          96 Jun 18  2020 85-fwupd
+-rw-r--r--   1 root root         218 Apr  2  2020 90-updates-available
+-rw-r--r--   1 root root         374 Jul 17  2020 91-release-upgrade
+-rw-r--r--   1 root root         165 Apr 13  2020 92-unattended-upgrades
+-rw-r--r--   1 root root         129 Apr  2  2020 95-hwe-eol
+-rw-r--r--   1 root root         142 Apr  2  2020 98-fsck-at-reboot
+-rw-r--r--   1 root root         144 Apr  2  2020 98-reboot-required
+drwxr-xr-x   2 root root        4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ echo " TodayW[K We[K[K[K[K[K[K[K[KBe Grea[K[K[K[K[K[K[KPretend You Were Sup er Saiyna. Until You Are. " >> 01-Custom-Word-Of-The-Day.dat 
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ [K]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 68
+drwxr-xr-x   3 root root        4096 Oct 25 10:24 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root       12288 Oct 22 10:27 [01;34m..[0m/
+-rw-r--r--   1 root root        1220 Dec  5  2019 00-header
+-rwxrwxr--   1 root troyburney    48 Oct 25 10:25 [01;32m01-Custom-Word-Of-The-Day.dat[0m*
+-rw-r--r--   1 root root        1157 Dec  5  2019 10-help-text
+-rw-r--r--   1 root root        5023 Aug 17  2020 50-motd-news
+-rw-r--r--   1 root root          96 Jun 18  2020 85-fwupd
+-rw-r--r--   1 root root         218 Apr  2  2020 90-updates-available
+-rw-r--r--   1 root root         374 Jul 17  2020 91-release-upgrade
+-rw-r--r--   1 root root         165 Apr 13  2020 92-unattended-upgrades
+-rw-r--r--   1 root root         129 Apr  2  2020 95-hwe-eol
+-rw-r--r--   1 root root         142 Apr  2  2020 98-fsck-at-reboot
+-rw-r--r--   1 root root         144 Apr  2  2020 98-reboot-required
+drwxr-xr-x   2 root root        4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ chmod +x 01-Custom-Word-Of-The-Day.dat 
+chmod: changing permissions of '01-Custom-Word-Of-The-Day.dat': Operation not permitted
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ sudo !!
+sudo chmod +x 01-Custom-Word-Of-The-Day.dat 
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ gedit 01-Custom-Word-Of-The-Day.dat 
+Gtk-[1;32mMessage[0m: [34m10:26:17.651[0m: Failed to load module "appmenu-gtk-module"
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ./01-Custom-Word-Of-The-Day.dat 
+ Pretend You Were Super Saiyan. Until You Are. 
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ged[K[K[K![Kmv 01-Custom-Word-Of-The-Day.dat 01-Custom-Word-Of-The-Day.dat ^C
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 68
+drwxr-xr-x   3 root root        4096 Oct 25 10:24 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root       12288 Oct 22 10:27 [01;34m..[0m/
+-rw-r--r--   1 root root        1220 Dec  5  2019 00-header
+-rwxrwxr-x   1 root troyburney    99 Oct 25 10:27 [01;32m01-Custom-Word-Of-The-Day.dat[0m*
+-rw-r--r--   1 root root        1157 Dec  5  2019 10-help-text
+-rw-r--r--   1 root root        5023 Aug 17  2020 50-motd-news
+-rw-r--r--   1 root root          96 Jun 18  2020 85-fwupd
+-rw-r--r--   1 root root         218 Apr  2  2020 90-updates-available
+-rw-r--r--   1 root root         374 Jul 17  2020 91-release-upgrade
+-rw-r--r--   1 root root         165 Apr 13  2020 92-unattended-upgrades
+-rw-r--r--   1 root root         129 Apr  2  2020 95-hwe-eol
+-rw-r--r--   1 root root         142 Apr  2  2020 98-fsck-at-reboot
+-rw-r--r--   1 root root         144 Apr  2  2020 98-reboot-required
+drwxr-xr-x   2 root root        4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ mv 01-Custom-Word-Of-The-Day.dat [K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcustom[C01-custom101-custom-Custom-Word-Of-The-Day.dat01-custom[C[C[C[C[C 01-custom[C[C[C[C[C[C
+mv: cannot move '01-Custom-Word-Of-The-Day.dat' to '01-custom': Permission denied
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ sudo !!
+sudo mv 01-Custom-Word-Of-The-Day.dat 01-custom
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 68
+drwxr-xr-x   3 root root        4096 Oct 25 10:28 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root       12288 Oct 22 10:27 [01;34m..[0m/
+-rw-r--r--   1 root root        1220 Dec  5  2019 00-header
+-rwxrwxr-x   1 root troyburney    99 Oct 25 10:27 [01;32m01-custom[0m*
+-rw-r--r--   1 root root        1157 Dec  5  2019 10-help-text
+-rw-r--r--   1 root root        5023 Aug 17  2020 50-motd-news
+-rw-r--r--   1 root root          96 Jun 18  2020 85-fwupd
+-rw-r--r--   1 root root         218 Apr  2  2020 90-updates-available
+-rw-r--r--   1 root root         374 Jul 17  2020 91-release-upgrade
+-rw-r--r--   1 root root         165 Apr 13  2020 92-unattended-upgrades
+-rw-r--r--   1 root root         129 Apr  2  2020 95-hwe-eol
+-rw-r--r--   1 root root         142 Apr  2  2020 98-fsck-at-reboot
+-rw-r--r--   1 root root         144 Apr  2  2020 98-reboot-required
+drwxr-xr-x   2 root root        4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ ll
+total 68
+drwxr-xr-x   3 root root        4096 Oct 25 10:28 [0m[01;34m.[0m/
+drwxr-xr-x 165 root root       12288 Oct 22 10:27 [01;34m..[0m/
+-rw-r--r--   1 root root        1220 Dec  5  2019 00-header
+-rwxrwxr-x   1 root troyburney    99 Oct 25 10:27 [01;32m01-custom[0m*
+-rw-r--r--   1 root root        1157 Dec  5  2019 10-help-text
+-rw-r--r--   1 root root        5023 Aug 17  2020 50-motd-news
+-rw-r--r--   1 root root          96 Jun 18  2020 85-fwupd
+-rw-r--r--   1 root root         218 Apr  2  2020 90-updates-available
+-rw-r--r--   1 root root         374 Jul 17  2020 91-release-upgrade
+-rw-r--r--   1 root root         165 Apr 13  2020 92-unattended-upgrades
+-rw-r--r--   1 root root         129 Apr  2  2020 95-hwe-eol
+-rw-r--r--   1 root root         142 Apr  2  2020 98-fsck-at-reboot
+-rw-r--r--   1 root root         144 Apr  2  2020 98-reboot-required
+drwxr-xr-x   2 root root        4096 Oct 25 10:22 [01;34mArchive[0m/
+]0;troyburney@TELESTO: /etc/update-motd.d[01;32mtroyburney@TELESTO[00m:[01;34m/etc/update-motd.d[00m$ exit
+exit
+
+Script done on 2021-10-25 10:28:55-05:00 [COMMAND_EXIT_CODE="0"]

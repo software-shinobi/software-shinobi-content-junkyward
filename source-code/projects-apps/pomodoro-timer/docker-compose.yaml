@@ -1,0 +1,17 @@
+version: '3'
+
+networks:
+  network-software-shinobi:
+    external: true
+
+services:
+
+  software-shinobi-pomodoro:
+    container_name: software-shinobi-pomodoro
+    image: softwareshinobi/software-shinobi-pomodora-timer
+    restart: always
+    networks:
+    - network-software-shinobi
+    restart: unless-stopped
+    ports:
+    - 42081:80

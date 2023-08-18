@@ -1,0 +1,278 @@
+Script started on 2021-10-25 10:08:29-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="135" LINES="29"]
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development[00m$ ll
+total 8
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:08 [0m[01;34m.[0m/
+drwxrwxr-x 6 troyburney troyburney 4096 Oct 25 10:06 [01;34m..[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:08 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.dat
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development[00m$ mkdir Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development[00m$ cd Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ cd Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ mkdir Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[2Pllmkdir Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksrc dat [Ka docs
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ touch delete.me.later
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ cp dm[Kelete.me.later Re[KEAD ME.md
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ de[K[Krm delete.me.later[Kr 
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll
+total 20
+drwxrwxr-x 5 troyburney troyburney 4096 Oct 25 10:10 [0m[01;34m.[0m/
+drwxrwxr-x 3 troyburney troyburney 4096 Oct 25 10:08 [01;34m..[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdata[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdocs[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:09 README.md
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34msrc[0m/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ touch [4Pllrm delete.me.later cp delete.me.later README.md[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ [2Ptouch delete.me.later
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pmkdir src data docscd Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ mkdir Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ kdir Script-To-Create-Fu[1Pnction-To-Display-A-Banner-On-SSH-Open[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ dir Script-To-Create-Fun[1Pction-To-Display-A-Banner-On-SSH-Open[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ir Script-To-Create-Func[1Ption-To-Display-A-Banner-On-SSH-Open[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ r Script-To-Create-Funct[1Pion-To-Display-A-Banner-On-SSH-Open[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$  Script-To-Create-Functi[1Pon-To-Display-A-Banner-On-SSH-Open[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[2Plsrc[1Pollreset;clear;pkill -9 chromeopen[K[2Pllcd Newsletter-Builders/ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd Graphic\ Design/rc[Kcd Graphic\ Design/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit init
+Initialized empty Git repository in /opt/valorantsoftware/Projects/Internal/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/.git/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll
+total 24
+drwxrwxr-x 6 troyburney troyburney 4096 Oct 25 10:10 [0m[01;34m.[0m/
+drwxrwxr-x 3 troyburney troyburney 4096 Oct 25 10:08 [01;34m..[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdata[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdocs[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:10 [01;34m.git[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:09 README.md
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34msrc[0m/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ touch .gitignore
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll
+total 24
+drwxrwxr-x 6 troyburney troyburney 4096 Oct 25 10:12 [0m[01;34m.[0m/
+drwxrwxr-x 3 troyburney troyburney 4096 Oct 25 10:08 [01;34m..[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdata[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdocs[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:10 [01;34m.git[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:12 .gitignore
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:09 README.md
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34msrc[0m/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ rc
+c]104[!p[?3;4l[4l>[H[2J[3J]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll
+total 24
+drwxrwxr-x 6 troyburney troyburney 4096 Oct 25 10:12 [0m[01;34m.[0m/
+drwxrwxr-x 3 troyburney troyburney 4096 Oct 25 10:08 [01;34m..[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdata[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdocs[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:10 [01;34m.git[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:12 .gitignore
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:09 README.md
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34msrc[0m/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ mkdir test
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll
+total 28
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:13 [0m[01;34m.[0m/
+drwxrwxr-x 3 troyburney troyburney 4096 Oct 25 10:08 [01;34m..[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdata[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdocs[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:10 [01;34m.git[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:12 .gitignore
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:09 README.md
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34msrc[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:13 [01;34mtest[0m/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ touh[Kch Docer-[K[K[Kker-[Kfile
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ touch Docer-[K[K[K[K[K[Kdocker-compols[K[Kse.ya ml
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll
+total 28
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:13 [0m[01;34m.[0m/
+drwxrwxr-x 3 troyburney troyburney 4096 Oct 25 10:08 [01;34m..[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdata[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:13 docker-compose.yaml
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:13 Dockerfile
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdocs[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:10 [01;34m.git[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:12 .gitignore
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:09 README.md
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34msrc[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:13 [01;34mtest[0m/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ lltouch docker-compose.yaml[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ [C[C[C[C[C[C[7PDockerfile
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[Kmkdir testll[Krclltouch .gitignorell[Kgit initll[Krm delete.me.later cp delete.me.later README.md[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ [2Ptouch delete.me.later
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pmkdir src data docscd Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$  Script-To-Create-Functi[3Pon-To-Display-A-Banner-On-SSH-Open[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[2Pll Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ t Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ [Co Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ [C[Cu Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ [C[C[Cc Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ [C[C[C[Ch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ [C[C[C[C[C
+
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll
+total 28
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:14 [0m[01;34m.[0m/
+drwxrwxr-x 3 troyburney troyburney 4096 Oct 25 10:08 [01;34m..[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdata[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:13 docker-compose.yaml
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:13 Dockerfile
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdocs[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:10 [01;34m.git[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:12 .gitignore
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:09 README.md
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34msrc[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:13 [01;34mtest[0m/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ lltouch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh[K[Kpdf
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ touch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.pdf[K[K[Kdocx
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ touch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.docx[K[K[K[Ktxt
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ touch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.txt[K[K[Kmobil[K
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ mv Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.* doc
+docker-compose.yaml  docs/                
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ mv Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.* docs/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ mv docs/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.docx [K[K[K[K[K[K.
+Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.docx  Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh
+Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.mobi  Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.txt
+Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.pdf   
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ mv docs/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh ..
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ cd ..
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development[00m$ ll
+total 40
+drwxrwxr-x 3 troyburney troyburney  4096 Oct 25 10:15 [0m[01;34m.[0m/
+drwxrwxr-x 6 troyburney troyburney  4096 Oct 25 10:06 [01;34m..[0m/
+drwxrwxr-x 7 troyburney troyburney  4096 Oct 25 10:14 [01;34mScript-To-Create-Function-To-Display-A-Banner-On-SSH-Open[0m/
+-rw-rw-r-- 1 troyburney troyburney 24576 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.dat
+-rw-rw-r-- 1 troyburney troyburney     0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development[00m$ cd doc[K[K[K[K[K[Kmv Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open
+mv: cannot move 'Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open' to a subdirectory of itself, 'Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open'
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development[00m$ ll
+total 40
+drwxrwxr-x 3 troyburney troyburney  4096 Oct 25 10:15 [0m[01;34m.[0m/
+drwxrwxr-x 6 troyburney troyburney  4096 Oct 25 10:06 [01;34m..[0m/
+drwxrwxr-x 7 troyburney troyburney  4096 Oct 25 10:14 [01;34mScript-To-Create-Function-To-Display-A-Banner-On-SSH-Open[0m/
+-rw-rw-r-- 1 troyburney troyburney 24576 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.dat
+-rw-rw-r-- 1 troyburney troyburney     0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development[00m$ mv Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh  Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development[00m$ ll
+total 40
+drwxrwxr-x 3 troyburney troyburney  4096 Oct 25 10:15 [0m[01;34m.[0m/
+drwxrwxr-x 6 troyburney troyburney  4096 Oct 25 10:06 [01;34m..[0m/
+drwxrwxr-x 7 troyburney troyburney  4096 Oct 25 10:15 [01;34mScript-To-Create-Function-To-Display-A-Banner-On-SSH-Open[0m/
+-rw-rw-r-- 1 troyburney troyburney 24576 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.dat
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development[00m$ cd Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll
+total 28
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:15 [0m[01;34m.[0m/
+drwxrwxr-x 3 troyburney troyburney 4096 Oct 25 10:15 [01;34m..[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdata[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:13 docker-compose.yaml
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:13 Dockerfile
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:15 [01;34mdocs[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:10 [01;34m.git[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:12 .gitignore
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:09 README.md
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34msrc[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:13 [01;34mtest[0m/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ mv [K[K[Kmc [K[Kv Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh src/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll
+total 28
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:15 [0m[01;34m.[0m/
+drwxrwxr-x 3 troyburney troyburney 4096 Oct 25 10:15 [01;34m..[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [01;34mdata[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:13 docker-compose.yaml
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:13 Dockerfile
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:15 [01;34mdocs[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:10 [01;34m.git[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:12 .gitignore
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:09 README.md
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:15 [01;34msrc[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:13 [01;34mtest[0m/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ cd [K[K[Kcd data/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ ll
+total 8
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:09 [0m[01;34m.[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:15 [01;34m..[0m/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ llcd data/ll[Kmv Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh src/[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ omv Script-To-Creat[1@e[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ [Cmv Script-To-Create[1P[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ tmv Script-To-Creat[1@e[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ [Comv Script-To-Crea[1@t[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ [C[Cumv Script-To-Cre[1@a[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ [C[C[Ccmv Script-To-Cr[1@e[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ [C[C[C[Chmv Script-To-C[1@r[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ [C[C[C[C[Cv Script-To-Cr[1P[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ [C[C[C[C[C Script-To-Cre[1P[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ [C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kdat
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ ll
+total 8
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:16 [0m[01;34m.[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:15 [01;34m..[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:16 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.dat
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ cd ..
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll[K[Kcd data
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ cd data[2P..[3Plltouch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.dat[K[K[Kyaml
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ touch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.yaml[K[K[K[Ktxt
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ touch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.txt[K[K[Kjson
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ ll
+total 8
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:16 [0m[01;34m.[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:15 [01;34m..[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:16 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.dat
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:16 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.json
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:16 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.txt
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:16 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.yaml
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ lltouch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.json[K[K[K[Kcsv
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ touch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.csv[K[K[Kxml
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ touch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.xml[K[K[K^C
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ ll
+total 8
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:16 [0m[01;34m.[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:15 [01;34m..[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:16 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.csv
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:16 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.dat
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:16 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.json
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:16 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.txt
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:16 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.xml
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:16 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.yaml
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/data[00m$ cd ..
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll
+total 28
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:15 [0m[01;34m.[0m/
+drwxrwxr-x 3 troyburney troyburney 4096 Oct 25 10:15 [01;34m..[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:16 [01;34mdata[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:13 docker-compose.yaml
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:13 Dockerfile
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:15 [01;34mdocs[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:10 [01;34m.git[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:12 .gitignore
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:09 README.md
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:15 [01;34msrc[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:13 [01;34mtest[0m/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ cd docs
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[00m$ l
+Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.docx  Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.pdf
+Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.mobi  Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.txt
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[00m$ lcd docsll[Kcd ..[3Plltouch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.xml[K[K[Khtm
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[00m$ ll
+total 8
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:17 [0m[01;34m.[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:15 [01;34m..[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.docx
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:17 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.htm
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.mobi
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.pdf
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.txt
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[00m$ lltouch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.htm[K[Kmd[K[K[Kmd
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[00m$ touch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.md[K[Kjo=[K[Kson
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[00m$ touch Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.json[K[K[K[Kcml[K[K[Kc[A]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[00m$ 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kxml
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[00m$ ll
+total 8
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:17 [0m[01;34m.[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:15 [01;34m..[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.docx
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:17 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.htm
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:17 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.json
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:17 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.md
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.mobi
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.pdf
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.txt
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:17 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.xml
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/docs[00m$ cd ..
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ ll
+total 28
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:15 [0m[01;34m.[0m/
+drwxrwxr-x 3 troyburney troyburney 4096 Oct 25 10:15 [01;34m..[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:16 [01;34mdata[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:13 docker-compose.yaml
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:13 Dockerfile
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:17 [01;34mdocs[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:10 [01;34m.git[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:12 .gitignore
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:09 README.md
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:15 [01;34msrc[0m/
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:13 [01;34mtest[0m/
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ cd r[Ksrc
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/src[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/src[00m$ ll
+total 8
+drwxrwxr-x 2 troyburney troyburney 4096 Oct 25 10:15 [0m[01;34m.[0m/
+drwxrwxr-x 7 troyburney troyburney 4096 Oct 25 10:15 [01;34m..[0m/
+-rw-rw-r-- 1 troyburney troyburney    0 Oct 25 10:14 Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open.sh
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/src[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open/src[00m$ cd ..
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development/Script-To-Create-Function-To-Display-A-Banner-On-SSH-Open[00m$ cd ..
+]0;troyburney@TELESTO: ~/Software+Shinobi/In-Development[01;32mtroyburney@TELESTO[00m:[01;34m~/Software+Shinobi/In-Development[00m$ exit
+exit
+
+Script done on 2021-10-25 10:18:21-05:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,44 @@
+import re
+
+#print("Hello, World!");
+#print("Goodbye, World!");
+#print("");
+
+def square(someStr):
+    #print("i'm in the function");
+    #print("I was passeed: ",someStr);
+
+    if "title" not in someStr:
+        return False;
+    else:
+        return True;
+
+f = open("test.txt", "r");
+
+#print("File Contents: ");
+# print(f.read())
+
+test = f.read();
+
+#print("");
+#print("variable print");
+
+#print(test);
+
+
+
+x = re.findall("<iframe.*</iframe>", test)
+
+counter = 1
+for element in x:
+    #print("");
+    #print(counter, ") element: ", element);
+    #counter = counter + 1;
+
+    someVar=square(element)
+
+    if(someVar == False):
+        print("Doesn't Contain A Title Element: ",element);
+
+
+#print("result",x);
