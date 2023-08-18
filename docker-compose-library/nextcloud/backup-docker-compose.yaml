@@ -1,0 +1,21 @@
+version: '2'
+
+volumes:
+  volume-nextcloud-server:
+
+services:
+
+  nextcloud-server:
+    image: nextcloud
+    restart: always
+    ports:
+      - 8080:80
+    links:
+      - callisto-database-server
+    volumes:
+      - volume-nextcloud-server:/var/www/html
+    environment:
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=
+      - MYSQL_HOST=callisto-database-server
