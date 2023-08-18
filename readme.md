@@ -1,49 +1,23 @@
-# You Just Created A New Ubuntu Linux Server, Now What!?
+this is raw content from my hard drives and servers and other things across the universe.
 
-In this GitHub repo will find a server provisioning bash script that will update, upgrade and configure your new ubuntu linux server.
+all content is mine and written about me. not every line of code, but i mean if it there is a project here, i wrote it.
 
-![Run This Provision Script On Every New Linux Server You Create](project-documentation/cover-image.png)
+i used libraries and third party stuff and googles of course.
 
-## About This Repository
+I did light scrubbing to look for like sensitive client stuff.
 
-So you've just created a new ubuntu linux server.
+## Disclaimer
 
-Naturally you ask the following question: "I've got a new ubuntu linux server, now what?"
+I'm not kidding that these are raw dumps.
 
-First things first, let's do some simple OS configuration and install some stuff.
+you might see who knows what in this repo.
 
-In this GitHub repo will find a server provisioning bash script that will update, upgrade and configure your new ubuntu linux server.
+these are off personal devices.
 
-## About The Author
+so...may God be with you.
 
-lorem ipsum...
+this repository should be assumed to be NSFW.
 
-## More Things To Do In An Idealized Future
+I'm not kidding.
 
-- [ ] Run the script into a Docker image for funsies.
-- [ ] Create standard users w/ passwords w/ keys
-- [ ] Configure Docker user permissions at install
-
-## Read The Companion Article
-
-I put together an article that goes into more detail about this provision script.
-
-So go read that article. Or don't, that's ok too.
-
-Somewhere in there is RTFM humor.
-
-[Read the provision script companion article](project-documentation/you-just-created-a-new-ubuntu-linux-server-now-what.md)
-
-## Quick Start: Ubuntu Linux New Server Provision Script
-
-Want to try and execute the ubuntu linux server provision script yourself?
-
-Great, i'm thrilled.
-
-Clone this repo and run the following command:
-
-```bash
-sudo bash source-code/provision-new-ubuntu-linux-server-basic.sh 
-```
-
-## Namaste.
+oh yea and i'm not liable... dot dot dot... this code is all r&d grade.

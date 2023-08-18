@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+
+  software-shinobi-reverse-proxy:
+
+    container_name: software-shinobi-reverse-proxy
+
+    image: jwilder/nginx-proxy:latest
+
+    ports:
+
+      - "8118:80"
+
+    volumes:
+
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+      - ./conf/nginx-proxy.conf:/etc/nginx/conf.d/nginx-proxy.conf:ro

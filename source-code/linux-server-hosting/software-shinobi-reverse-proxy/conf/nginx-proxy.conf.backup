@@ -1,0 +1,26 @@
+server {
+listen 80;
+server_name nginx.softwareshinobi.online;
+location / {
+proxy_set_header Host $host;
+proxy_pass http://softwareshinobi.online;
+proxy_redirect off;
+}
+}
+server {
+
+    listen 80;
+
+    server_name nginx.softwareshinobi.online;
+
+    location / {
+
+      proxy_set_header Host $host;
+
+      proxy_pass http://jenkins.softwareshinobi.online:9300;
+
+      proxy_redirect off;
+
+    }
+
+}
