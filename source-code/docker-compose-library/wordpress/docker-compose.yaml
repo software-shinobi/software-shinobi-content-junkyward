@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+
+   callisto-database:
+     image: mysql:5.7
+     container_name: callisto-database
+     environment:
+       MYSQL_ROOT_PASSWORD: 3hsLU4DEtFNDDNsb
+       MYSQL_DATABASE: CALLISTO
+       MYSQL_USER: CALLISTO
+       MYSQL_PASSWORD: Comp#terB|#e42!
+
+   callisto-phpmyadmin:
+     depends_on:
+       - callisto-database
+     image: phpmyadmin/phpmyadmin
+     container_name: callisto-phpmyadmin
+     ports:
+       - 8889:80
+     environment:
+       PMA_HOST: callisto-database
+       MYSQL_ROOT_PASSWORD: 3hsLU4DEtFNDDNsb
+
+   callisto-wordpress:
+     depends_on:
+       - callisto-database
+     image: wordpress:latest
+     container_name: callisto-wordpress
+     ports:
+       - "8888:80"
+     environment:
+       WORDPRESS_DB_HOST: callisto-database:3306
+       WORDPRESS_DB_NAME: CALLISTO
+       WORDPRESS_DB_USER: CALLISTO
+       WORDPRESS_DB_PASSWORD: Comp#terB|#e42!

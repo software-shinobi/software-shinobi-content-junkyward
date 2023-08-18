@@ -1,0 +1,83 @@
+Script started on 2022-03-30 09:39:32-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="134" LINES="32"]
+troyburney@TELESTO:/home/software-shinobi/content-library/in-progress-articles/how-to-clear-environment-variable$ reset
+c]104[!p[?3;4l[4l>cleartroyburney@TELESTO:/home/software-shinobi/content-library/in-progress-articles/how-to-clear-environment-variable$ clear
+[H[2J[3Jtroyburney@TELESTO:/home/software-shinobi/content-library/in-progress-articles/how-to-clear-environment-variable$ env
+SHELL=/bin/bash
+SESSION_MANAGER=local/TELESTO:@/tmp/.ICE-unix/3008,unix/TELESTO:/tmp/.ICE-unix/3008
+WINDOWID=102760627
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+software_shinobi_home=/home/troyburney/.software-shinobi
+XDG_CONFIG_DIRS=/etc/xdg/xdg-cinnamon:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+software_shinobi_scripts_home=/home/troyburney/.software-shinobi/scripts
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LANGUAGE=
+MANDATORY_PATH=/usr/share/gconf/cinnamon.mandatory.path
+LC_ADDRESS=en_US.UTF-8
+JAVA_HOME=/usr/lib/jvm/java-14-openjdk-amd64
+LC_NAME=en_US.UTF-8
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+CINNAMON_VERSION=4.8.6
+SHELL_SESSION_ID=1d2c44c4d4d643019d21fdf907ee0316
+DESKTOP_SESSION=cinnamon
+LC_MONETARY=en_US.UTF-8
+SSH_AGENT_PID=3063
+GTK_MODULES=gail:atk-bridge
+XDG_SEAT=seat0
+PWD=/home/software-shinobi/content-library/in-progress-articles/how-to-clear-environment-variable
+LOGNAME=troyburney
+XDG_SESSION_DESKTOP=
+XDG_SESSION_TYPE=x11
+GOOGLE_APPLICATION_CREDENTIALS=/home/troyburney/.software-shinobi/software-shinobi-keys/google-cloud-platform/software-shinobi-service-account/software-shinobi-net-777a9c4adc9c.json
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+XAUTHORITY=/home/troyburney/.Xauthority
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+HOME=/home/troyburney
+LANG=en_US.UTF-8
+LC_PAPER=en_US.UTF-8
+XDG_CURRENT_DESKTOP=X-Cinnamon
+KONSOLE_DBUS_SERVICE=:1.580
+KONSOLE_DBUS_SESSION=/Sessions/2
+PROFILEHOME=
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+KONSOLE_VERSION=191203
+GJS_DEBUG_OUTPUT=stderr
+XDG_SESSION_CLASS=user
+LC_IDENTIFICATION=en_US.UTF-8
+TERM=xterm-256color
+GTK_OVERLAY_SCROLLING=1
+DEFAULTS_PATH=/usr/share/gconf/cinnamon.default.path
+USER=troyburney
+COLORFGBG=0;15
+PAM_KWALLET5_LOGIN=/run/user/1000/kwallet5.socket
+DISPLAY=:0
+SHLVL=2
+LC_TELEPHONE=en_US.UTF-8
+HTTP_PROXY=http://my.proxy:8080
+LC_MEASUREMENT=en_US.UTF-8
+XDG_VTNR=1
+XDG_SESSION_ID=3
+PAPERSIZE=letter
+XDG_RUNTIME_DIR=/run/user/1000
+LC_TIME=en_US.UTF-8
+XDG_DATA_DIRS=/usr/share/gnome:/usr/share/cinnamon:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+PATH=/usr/lib/jvm/java-14-openjdk-amd64/jre/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+GIO_LAUNCHED_DESKTOP_FILE_PID=64088
+GOOGLE_PROXY=http://my.proxy:8080
+GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/org.kde.konsole.desktop
+LC_NUMERIC=en_US.UTF-8
+OLDPWD=/home/software-shinobi/content-library/in-progress-articles
+KONSOLE_DBUS_WINDOW=/Windows/2
+_=/usr/bin/env
+troyburney@TELESTO:/home/software-shinobi/content-library/in-progress-articles/how-to-clear-environment-variable$ env | grep proxy
+HTTP_PROXY=http://my.proxy:8080
+GOOGLE_PROXY=http://my.proxy:8080
+troyburney@TELESTO:/home/software-shinobi/content-library/in-progress-articles/how-to-clear-environment-variable$ unset HTTP_PROXY
+troyburney@TELESTO:/home/software-shinobi/content-library/in-progress-articles/how-to-clear-environment-variable$ unse [Kt GOOGLE_PROXY
+troyburney@TELESTO:/home/software-shinobi/content-library/in-progress-articles/how-to-clear-environment-variable$ unset GOOGLE_PROXY[2PHTTP_PROXYenv | grep proxy
+troyburney@TELESTO:/home/software-shinobi/content-library/in-progress-articles/how-to-clear-environment-variable$ exit
+exit
+
+Script done on 2022-03-30 09:40:46-05:00 [COMMAND_EXIT_CODE="1"]
